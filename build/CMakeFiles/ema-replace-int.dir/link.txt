@@ -1,1 +1,0 @@
-/usr/bin/cc "CMakeFiles/ema-replace-int.dir/vtsh/ema-replace-int.c.o" -o bin/ema-replace-int 
