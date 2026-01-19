@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/factorize.dir/vtsh/cpu-factorize.c.o" -o bin/factorize 

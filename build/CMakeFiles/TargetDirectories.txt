@@ -1,0 +1,6 @@
+/home/admin1/labOs/lab1/build/CMakeFiles/lab1.dir
+/home/admin1/labOs/lab1/build/CMakeFiles/myshell.dir
+/home/admin1/labOs/lab1/build/CMakeFiles/factorize.dir
+/home/admin1/labOs/lab1/build/CMakeFiles/ema-replace-int.dir
+/home/admin1/labOs/lab1/build/CMakeFiles/edit_cache.dir
+/home/admin1/labOs/lab1/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,38 @@
+========================================
+TEST 4: COMPILER OPTIMIZATION 
+========================================
+
+ Testing: Small prime
+ Number: 1000000007, Iterations: 50000
+
+-O0:
+  Time: 1.89s
+-O3:
+  Time: 1.81s
+  Speedup: 1.04×
+
+ Testing: Large prime
+ Number: 999999999989, Iterations: 10000
+
+-O0:
+  Time: 12.11s
+-O3:
+  Time: 11.76s
+  Speedup: 1.02×
+
+ Testing: Composite (2^12×5^12)
+ Number: 1000000000000, Iterations: 50000
+
+-O0:
+  Time: 0.00s
+-O3:
+  Time: 0.00s
+  Speedup: N/A (too fast)
+
+========================================
+SUMMARY:
+- Small numbers: Minimal benefit
+- Large primes: ~2% improvement
+- Composite: No benefit (too fast)
+
+

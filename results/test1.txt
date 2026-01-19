@@ -1,0 +1,36 @@
+========================================
+TEST 1: BASELINE (1 process)
+Date: 2026-01-19 01:39
+========================================
+
+[Running: build/bin/cpu-factorize 1000000007 5000]
+
+CPU Factorization Loader
+========================================
+Number: 1000000007
+Iterations: 5000
+========================================
+
+[Iteration 1/5000] 1000000007 = 1000000007
+[Iteration 501/5000] 1000000007 = 1000000007
+[Iteration 1001/5000] 1000000007 = 1000000007
+[Iteration 1501/5000] 1000000007 = 1000000007
+[Iteration 2001/5000] 1000000007 = 1000000007
+[Iteration 2501/5000] 1000000007 = 1000000007
+[Iteration 3001/5000] 1000000007 = 1000000007
+[Iteration 3501/5000] 1000000007 = 1000000007
+[Iteration 4001/5000] 1000000007 = 1000000007
+[Iteration 4501/5000] 1000000007 = 1000000007
+RESULTS:
+========================================
+Total iterations: 5000
+Total time: 178.01 ms
+Average time per iteration: 0.0356 ms
+Factorization result: 1000000007 = 1000000007
+=================DONE==================
+Time: 0:00.17 (elapsed)
+User: 0.17 (seconds)
+System: 0.00 (seconds)
+CPU: 99%
+Context switches: 1 voluntary, 2 involuntary
+

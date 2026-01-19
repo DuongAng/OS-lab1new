@@ -1,0 +1,37 @@
+========================================
+TEST 2: OPTIMAL NUMBER OF PROCESSES
+System: 16 CPUs (8 cores × 2 HT)
+Total workload: 100000 iterations
+========================================
+
+--- Testing 1 processes ---
+Each process: 100000 iterations
+Time: 3.956138717s
+Baseline
+
+--- Testing 2 processes ---
+Each process: 50000 iterations
+Time: 2.045723499s
+Speedup: 1.93×
+Efficiency: 90.0%
+
+--- Testing 4 processes ---
+Each process: 25000 iterations
+Time: 1.284883325s
+Speedup: 3.07×
+Efficiency: 70.0%
+
+--- Testing 8 processes ---
+Each process: 12500 iterations
+Time: .883074886s
+Speedup: 4.47×
+Efficiency: 50.0%
+
+--- Testing 16 processes ---
+Each process: 6250 iterations
+Time: .738376072s
+Speedup: 5.35×
+Efficiency: 30.0%
+
+========================================
+

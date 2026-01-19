@@ -1,0 +1,23 @@
+========================================
+TEST 3: THREADS vs PROCESSES
+Total work: 80000 iterations
+Threads/Processes: 8
+========================================
+
+--- Multi-threaded (pthread) ---
+Multi-threaded Factorization
+Number: 1000000007, Total: 80000, Threads: 8
+Per thread: 10000 iterations
+
+Total time: 0.662 seconds
+Time: 0.66 s
+Memory: 1920 KB
+
+--- Multi-process ---
+Time: 0.74 s
+Memory: 3584 KB
+
+========================================
+EXPECTED: Similar time, threads use less memory
+========================================
+
